@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Izpitvane
 {
-    public class AnimalsContext:DbContext
+    public class AnimalsContext : DbContext
     {
         public AnimalsContext() : base("AnimalsContext")
         {
 
         }
-        public DbSet<Animal> Animals { get; set; } 
+        public DbSet<Animal> Animals { get; set; }
         public DbSet<Breed> Breeds { get; set; }
 
     }
