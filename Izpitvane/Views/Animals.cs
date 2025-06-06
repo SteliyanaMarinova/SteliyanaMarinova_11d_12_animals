@@ -181,7 +181,43 @@ namespace Izpitvane
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            try
+            {
+                switch (comboBox1.Text)
+                {
+                    case "Улично":
+                        pictureBox1.Image = System.Drawing.Image.FromFile("ulichno-kuche-spasqva-ot-hipotermiq-i-smurt-3-godishno-momichence.jpg");
+                        break;
+                    case "Йорки":
+                        pictureBox1.Image = System.Drawing.Image.FromFile("Yorkie-pozira.jpg");
+                        break;
+                    case "Хъски":
+                        pictureBox1.Image = System.Drawing.Image.FromFile("768x432.jpg");
+                        break;
+                    case "Мопс":
+                        pictureBox1.Image = System.Drawing.Image.FromFile("Pug1.jpg");
+                        break;
+                    case "Пинчер":
+                        pictureBox1.Image = System.Drawing.Image.FromFile("3-1.jpg");
+                        break;
+                    case "Чихуахуа":
+                        pictureBox1.Image = System.Drawing.Image.FromFile("chihuahuas-running-on-grass-1024x675.jpg");
+                        break;
+                    case "Чао-чао":
+                        pictureBox1.Image = System.Drawing.Image.FromFile("vanshen-vid-na-chau-chau.jpg");
+                        break;
+                    case "Лабрадор":
+                        pictureBox1.Image = System.Drawing.Image.FromFile("1250-666-labrador-retrivyr.jpg");
+                        break;
+                    default:
+                        pictureBox1.Image = null;
+                        break;
+                }
+            }
+            catch
+            {
+                pictureBox1.Image = null;
+            }
         }
     }
 }

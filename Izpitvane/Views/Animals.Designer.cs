@@ -165,16 +165,17 @@
             // listItem
             // 
             this.listItem.FormattingEnabled = true;
-            this.listItem.Location = new System.Drawing.Point(439, 36);
+            this.listItem.Location = new System.Drawing.Point(523, 36);
             this.listItem.Name = "listItem";
-            this.listItem.Size = new System.Drawing.Size(324, 173);
+            this.listItem.Size = new System.Drawing.Size(240, 264);
             this.listItem.TabIndex = 13;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(298, 45);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(123, 147);
+            this.pictureBox1.Size = new System.Drawing.Size(188, 226);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
